@@ -1,0 +1,16 @@
+name: media_audio
+description: 'Provides Audio Media Bundle'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - file
+  - language
+  - lightning_media
+  - media_entity
+  - media_entity_audio
+  - ov_audio_player
+  - user
+  - workbench_moderation
+version: 8.x-1.0
+package: KulturDesign

@@ -1,0 +1,13 @@
+{
+  "name": "micbar/kulturdesign_media_audio",
+  "description": "KulturDesign Media Audio Bundle",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "micbar",
+      "email": "michael.barz@zeitgestalten.eu"
+    }
+  ]
+}
