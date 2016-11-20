@@ -1,6 +1,7 @@
 {
   "name": "micbar/kulturdesign_media_audio",
   "description": "KulturDesign Media Audio Bundle",
+  "type": "drupal-module",
   "minimum-stability": "dev",
   "prefer-stable": true,
   "license": "MIT",
