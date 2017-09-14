@@ -2,23 +2,24 @@ langcode: de
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.media.embedded
     - field.field.media.audio.field_audio
     - field.field.media.audio.field_media_in_library
     - media_entity.bundle.audio
   module:
     - ov_audio_player
-id: media.audio.default
+id: media.audio.embedded
 targetEntityType: media
 bundle: audio
-mode: default
+mode: embedded
 content:
   field_audio:
     weight: 3
     label: visually_hidden
     settings:
+      provide_download_link: '1'
       player_skin: light
       audio_attributes: 'controls preload="auto"'
-      provide_download_link: 0
     third_party_settings: {  }
     type: ov_audio_player
     region: content
